@@ -147,7 +147,7 @@
 
 #instruction_h1 {
     color: white;
-    margin-top: 121px;
+    padding-top: 121px;
     text-align: center;
 }
 
@@ -155,4 +155,52 @@
     color: rgba(157, 158, 162, 1);
     margin-top: 39px;
     text-align: center;
+    margin-bottom: 82px;
+}
+
+.instruction_list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_wrapper {
+    display: flex;
+    align-content: start;
+    align-items: start;
+}
+
+.written_details {
+    text-align: center;
+    color: white;
+}
+
+.p_det {
+    color: rgba(157, 158, 162, 1);
+}
+
+.li_det_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+}
+
+.refer_here {
+    display: block;
+    color: white;
+    background-color: rgba(23, 175, 38, 1);
+    border-radius: 100px;
+    border-style: none;
+    width: 165px;
+    height: 56px;
+    align-self: center;
+    margin: 0 auto;
 }
