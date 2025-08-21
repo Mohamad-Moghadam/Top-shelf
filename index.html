@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="styles/app.css">
 </head>
 <body>
-    <header>
+    <header class="top_header">
         <section>
-            <span>
+            <span class="header_span">
                 LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout.
             </span>
-            <span>
+            <span class="header_span">
                 23 : 15 : 00
             </span>
         </section>
-        <nav>
+    </header>
+    <nav class="nav_bar">
+        <div class="first_two_feat_nav">
             <div>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3 7H21" stroke="#062A09" stroke-width="1.5" stroke-linecap="round"/>
@@ -25,11 +27,11 @@
                 </svg>
                 <img src="images/Logo(1).png" alt="Top shelf Logo">
             </div>
-            <div>
-                <span>
+            <div class="profile">
+                <span class="your_account">
                     Your Account
                 </span>
-                <section>
+                <section class="cart_wrapper">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.5 7.66952V6.69952C7.5 4.44952 9.31 2.23952 11.56 2.02952C14.24 1.76952 16.5 3.87952 16.5 6.50952V7.88952" stroke="#46494F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M8.99983 22H14.9998C19.0198 22 19.7398 20.39 19.9498 18.43L20.6998 12.43C20.9698 9.99 20.2698 8 15.9998 8H7.99983C3.72983 8 3.02983 9.99 3.29983 12.43L4.04983 18.43C4.25983 20.39 4.97983 22 8.99983 22Z" stroke="#46494F" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -38,22 +40,25 @@
                     </svg>
 
 
-                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="purchase_counter">
                     <rect width="14" height="14" rx="7" fill="#EB2606"/>
                     <path d="M6.99431 10.08C6.56765 10.08 6.19965 9.96267 5.89031 9.728C5.58631 9.49333 5.35165 9.16267 5.18631 8.736C5.02098 8.304 4.93831 7.792 4.93831 7.2C4.93831 6.608 5.02098 6.09867 5.18631 5.672C5.35165 5.24 5.58631 4.90667 5.89031 4.672C6.19965 4.43733 6.56765 4.32 6.99431 4.32C7.42098 4.32 7.78898 4.43733 8.09831 4.672C8.40765 4.90667 8.64498 5.24 8.81031 5.672C8.97565 6.09867 9.05831 6.608 9.05831 7.2C9.05831 7.792 8.97565 8.304 8.81031 8.736C8.64498 9.16267 8.40765 9.49333 8.09831 9.728C7.78898 9.96267 7.42098 10.08 6.99431 10.08ZM6.99431 9.296C7.38365 9.296 7.68498 9.11467 7.89831 8.752C8.11165 8.384 8.21831 7.86667 8.21831 7.2C8.21831 6.53333 8.11165 6.01867 7.89831 5.656C7.68498 5.288 7.38365 5.104 6.99431 5.104C6.60498 5.104 6.30365 5.288 6.09031 5.656C5.87698 6.01867 5.77031 6.53333 5.77031 7.2C5.77031 7.86667 5.87698 8.384 6.09031 8.752C6.30365 9.11467 6.60498 9.296 6.99431 9.296Z" fill="white"/>
                     </svg>
                 </section>
             </div>
+        </div>
 
-            <div>
-                <input type="text" id="" placeholder="Search">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="36" height="36" rx="18" fill="#17AF26"/>
-                <path d="M17.6663 23.9997C21.1641 23.9997 23.9997 21.1641 23.9997 17.6663C23.9997 14.1685 21.1641 11.333 17.6663 11.333C14.1685 11.333 11.333 14.1685 11.333 17.6663C11.333 21.1641 14.1685 23.9997 17.6663 23.9997Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M24.6663 24.6663L23.333 23.333" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </div>
-        </nav>
-    </header>
+        <div class="second_two_feat_nav">
+            <input type="text" id="" placeholder="Search" class="search_input">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="36" height="36" rx="18" fill="#17AF26"/>
+            <path d="M17.6663 23.9997C21.1641 23.9997 23.9997 21.1641 23.9997 17.6663C23.9997 14.1685 21.1641 11.333 17.6663 11.333C14.1685 11.333 11.333 14.1685 11.333 17.6663C11.333 21.1641 14.1685 23.9997 17.6663 23.9997Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M24.6663 24.6663L23.333 23.333" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </nav>
+    <main class="main_page">
+
+    </main>
 </body>
 </html>

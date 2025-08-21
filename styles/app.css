@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(5, 66, 44, 1);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    padding: 8px 24px;
+}
+
+.first_two_feat_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.your_account {
+    border-right: rgba(200, 201, 203, 1) solid 1px;
+    padding-right: 16px;
+}
+
+.cart_wrapper {
+    position: relative;
+}
+
+.purchase_counter {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.second_two_feat_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-top: rgba(244, 244, 244, 1) solid 1px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.search_input {
+    border-radius: 100px;
+    width: 298;
+    color: rgba(200, 201, 203, 1);
+    height: 36px;
+    border:rgba(244, 244, 244, 1) solid 2px;
+}
+
+.search_input::placeholder{
+    padding-left: 20px;
+}
+
+.main_page {
+    background-image: url("../images/Mask\ group.png");
+}
