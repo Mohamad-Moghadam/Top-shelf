@@ -426,7 +426,7 @@
 .email_sec {
     background-color: rgba(5, 66, 44, 1);
     color: white;
-    margin: -1500px 8% 60px ;
+    margin: -1700px 8% 60px ;
     border-radius: 24px;
     height: 356px;
     width: 342px;
@@ -559,4 +559,50 @@ footer h4 {
     width: 100%;
     color: rgba(157, 158, 162, 1);
     padding-bottom: 64px;
+}
+
+@media screen and (min-width: 600px) {
+    .nav_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first_two_feat_nav {
+        display: hidden;
+    }
+    
+    .menu_svg {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 64px;
+    }
+
+    .profile {
+        margin-right: 64px;
+    }
+
+    .second_two_feat_nav {
+        margin-left: 50%;
+    }
+
+    .main_page {
+        background-image: url("../images/horizentalback.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .bragging_responsive {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bragging {
+        display: flex;
+    margin-bottom: 64px;
+    }
 }
