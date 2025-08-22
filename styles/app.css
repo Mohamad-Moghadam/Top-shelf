@@ -406,7 +406,7 @@
 .ref_item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
 }
 
 .last_ref {
@@ -416,7 +416,7 @@
 .email_sec {
     background-color: rgba(5, 66, 44, 1);
     color: white;
-    margin: -50% 8% 60px ;
+    margin: -1500px 8% 60px ;
     border-radius: 24px;
     height: 356px;
     width: 342px;
@@ -453,4 +453,100 @@
     border-style: none;
     border-radius: 100px;
     align-self: center;
+}
+
+footer {
+    background: linear-gradient(to bottom, rgba(26, 30, 38, 1), rgba(1, 16, 11, 1));
+    margin: 0px;
+    padding-top: 240px;
+}
+
+.footer_logo {
+    margin-left: 24px;
+    display: block;
+}
+
+footer p {
+    color: white;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    text-align: left;
+    width: 276px;
+}
+
+footer h4 {
+    margin-left: 24px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.quick_link {
+    display: flex;
+    margin-left: 24px;
+    gap: 80px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.quick_link ul li a {
+    text-decoration: none;
+    color: rgba(157, 158, 162, 1);
+}
+
+.quick_link ul li {
+    list-style: none;
+}
+
+.company_email {
+    text-decoration: none;
+    color: rgba(157, 158, 162, 1);
+}
+
+.global_list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.global_list li {
+    list-style: none;
+}
+
+.global_list li a {
+    text-decoration: none;
+    color: rgba(157, 158, 162, 1);
+}
+
+.card_wrapper {
+    display: flex;
+    margin-left: 24px;
+    gap: 16px;
+    border-bottom: rgba(70, 73, 79, 1) solid 1px;
+    padding-bottom: 64px;
+}
+
+.last_list {
+    display: flex;
+    margin-left: 24px;
+    gap: 16px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.last_list li {
+    list-style: none;
+}
+
+.last_list li a {
+    text-decoration: none;
+    color: rgba(157, 158, 162, 1);
+}
+
+.lastp {
+    width: 100%;
+    color: rgba(157, 158, 162, 1);
+    padding-bottom: 64px;
 }
