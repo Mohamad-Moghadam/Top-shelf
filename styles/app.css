@@ -412,3 +412,45 @@
 .last_ref {
     padding-bottom: 275px;
 }
+
+.email_sec {
+    background-color: rgba(5, 66, 44, 1);
+    color: white;
+    margin: -50% 8% 60px ;
+    border-radius: 24px;
+    height: 356px;
+    width: 342px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.email_sec h1 {
+    margin: 24px 24px 16px;
+}
+
+.email_sec p {
+    margin: 0px 24px 8px;
+    border-bottom: rgba(52, 102, 84, 1) solid 1px;
+    padding-bottom: 4px;
+}
+
+.email_sec input {
+    border: rgba(52, 102, 84, 1) solid 2px;
+    width: 294px;
+    height: 56px;
+    align-self: center;
+    background-color: rgba(5, 66, 44, 1);
+    border-radius: 100px;
+    padding-left: 24px;
+    margin-bottom: 16px;
+}
+
+.email_sec button {
+    background-color: rgba(23, 175, 38, 1);
+    width: 294px;
+    height: 56px;
+    border-style: none;
+    border-radius: 100px;
+    align-self: center;
+}
