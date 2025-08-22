@@ -204,3 +204,163 @@
     align-self: center;
     margin: 0 auto;
 }
+
+.first_weed_seller {
+    margin-top: 78px;
+    text-align: center;
+}
+
+#firs_seller_h1 {
+    text-align: left;
+    margin: 0px 24px;
+}
+
+#num1 {
+    color: rgba(242, 188, 27, 1);
+}
+
+#firs_seller_des {
+    margin-top: 16px;
+    text-align: left;
+    margin: 16px 24px 32px;
+}
+
+.more_brag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: rgba(206, 207, 213, 0.4) solid 2px;
+    padding: 16px;
+    margin: 0px 24px;
+    border-radius: 12px;
+}
+
+.more_brag_des {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.more_brag_list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.drug_brag {
+    margin-bottom: 102px;
+}
+
+.recent_products {
+    margin-left: 12px;
+    margin-bottom: 24px;
+}
+
+.filtering {
+    margin-left: 12px;
+    margin-bottom: 24px;
+}
+
+.Indica_or_sativa {
+    width: 86px;
+    height: 28px;
+    display: block;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.current_price {
+    color: rgba(235, 38, 6, 1);
+}
+
+.weight {
+    display: flex;
+    gap: 8px;
+}
+
+.weed_weight {
+    width: 46px;
+    height: 26px;
+    border: rgba(244, 244, 244, 1) solid 1px;
+}
+
+.price {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 23.5px;
+}
+
+.add_to_cart {
+    width: 117px;
+    height: 40px;
+    background-color: rgba(23, 175, 38, 1);
+    border-style: none;
+    color: white;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.product_name {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+    align-items: center;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    border-right: rgba(200, 201, 203, 1) solid 2px;
+    width: 45px;
+    padding-right: 8px;
+    justify-content: center;
+}
+
+.star_wrapper {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.reviews {
+    padding-left: 8px;
+}
+
+.product_h2 {
+    width: 159px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.product_sell {
+    margin: 0px 24px 60px;
+    height: 491px;
+}
+
+.each_two_product{
+    display: flex;
+    justify-content: center;
+}
+
+.product2_h2{
+    width: 159px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 23px;
+}
+
+.product3_h2 {
+    width: 159px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.product4_h2 {
+    width: 159px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 27px;
+}
