@@ -179,10 +179,15 @@
     color: rgba(157, 158, 162, 1);
 }
 
+.instruction_list_wrapper {
+    display: flex;
+}
+
 .li_det_wrapper {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    align-content: center;
     gap: 24px;
     list-style: none;
     padding: 0;
@@ -203,6 +208,11 @@
     height: 56px;
     align-self: center;
     margin: 0 auto;
+}
+
+.button_wrapper{
+    display: flex;
+    padding-bottom: 131px;
 }
 
 .first_weed_seller {
