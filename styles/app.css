@@ -364,3 +364,51 @@
     margin-bottom: 8px;
     font-size: 27px;
 }
+
+.weed_education {
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.weed_education_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 28.5px 56px;
+    padding-top: 59px;
+    border-bottom: rgba(200, 201, 203, 1) solid 2px;
+    padding-bottom: 24px;
+}
+
+.show_all {
+    color: rgba(23, 175, 38, 1);
+}
+
+.img_holder {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.references p, .references h2, .references a {
+    margin-left: 28.5px;
+}
+
+.ref_h2 {
+    margin: 8px 0px;
+}
+
+.ref_link {
+    margin-top: 32px;
+    color: rgba(23, 175, 38, 1);
+}
+
+.ref_item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.last_ref {
+    padding-bottom: 275px;
+}
